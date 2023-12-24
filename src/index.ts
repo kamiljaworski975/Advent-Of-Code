@@ -1,7 +1,5 @@
-const x = [1, 2, 3, 4, 5, 6];
+import { dayFour } from './challenges/dayFour';
 
-for (let i = 0; i < x.length; i++) {
-    const element = x[i];
+dayFour.init();
 
-    console.log(element);
-}
+dayFour.logs();
